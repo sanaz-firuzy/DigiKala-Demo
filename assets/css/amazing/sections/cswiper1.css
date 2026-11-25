@@ -1,0 +1,42 @@
+
+/* category swiper */
+section.cswiper{
+    height: 155px;
+    margin-top: 20px;
+}
+section.cswiper>div.category{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+section.cswiper>div.category>div.swiper-wrapper>div.swiper-slide{
+    width: 88px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    background-color: white;
+}
+section.cswiper>div.category>div.swiper-wrapper>div.swiper-slide>div.first{
+    background-color: rgb(223, 221, 221);
+    border: 1px solid rgb(223, 221, 221) ;
+    border-radius: 8px;
+    padding: 2px 4px;
+    margin-right: 8px;
+}
+section.cswiper>div.category>div.swiper-wrapper>div.swiper-slide>a{
+    height: 135px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+section.cswiper>div.category>div.swiper-wrapper>div.swiper-slide>a>img{
+    width: 65px;
+    height: 65px;
+}
+section.cswiper>div.category>div.swiper-wrapper>div.swiper-slide>a>span{
+    font-size: 12px;
+}

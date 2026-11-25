@@ -1,0 +1,28 @@
+div.bannerswiper{
+    height: 570px !important;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    background-color: white;
+    border-radius: 50%;
+}
+.swiper-button-next svg,
+.swiper-button-prev svg{
+    width: 16px !important;
+    height: 20px !important;
+    color: #3b3b3b !important;
+}
+ .bannerswiper .swiper-button-next {
+    position: absolute !important;
+    left: 95% !important;
+    top: 90% !important;
+}
+ .bannerswiper .swiper-button-prev{
+    position: absolute !important;
+    left: 88% !important;
+    top: 90% !important;
+}
+.bannerswiper .swiper-slide img{
+    object-fit: cover !important;
+   height: 570px !important;
+}

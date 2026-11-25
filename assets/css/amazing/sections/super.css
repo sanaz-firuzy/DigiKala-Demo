@@ -1,0 +1,125 @@
+.super{
+    width: 90%;
+    margin: 30px auto;
+    height: 120px;
+    background-color: #EAEDED;
+    /* background: url(); */
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.super .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.super .left{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.super .left ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.super .left ul li{
+    margin: 0 5px;
+}
+.super .left ul li a{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* display: block; */
+}
+.super .left ul li a img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* margin-left: 10px; */
+}
+.super .left ul li a h3{
+    color: black;
+    background-color: white;
+    padding: 15px 18px;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+.super .left ul li a span{
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 90px;
+}
+.super2{
+    width: 90%;
+    margin: 30px auto;
+    height: 120px;
+    background-color: #EBE4EA;
+    /* background: url(); */
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.super3{
+    width: 90%;
+    margin: 30px auto;
+    height: 120px;
+    background-color: #F3EAEC;
+    /* background: url(); */
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.super3 .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.super3 .left{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.super3 .left ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.super3 .left ul li{
+    margin: 0 5px;
+}
+.super3 .left ul li a{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* display: block; */
+}
+.super3 .left ul li a img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* margin-left: 10px; */
+}
+.super3 .left ul li a h3{
+    color: black;
+    background-color: white;
+    padding: 15px 18px;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+.super3 .left ul li a span{
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 90px;
+}

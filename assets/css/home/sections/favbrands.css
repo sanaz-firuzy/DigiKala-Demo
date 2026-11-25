@@ -1,0 +1,34 @@
+.several2{
+     width: 90%;
+    height: fit-content;
+    border: 1px solid gray;
+    /* box-shadow:  gray; */
+    padding: 20px 0;
+    margin: 30px auto;
+    border-radius: 12px;
+}
+.several2 .top-side5{
+    display: flex;
+    font-size: 25px;
+}
+.several2 .bottom-side3 {
+    width: 100%;
+    height: 60%;
+}
+.several2 .bottom-side3 .amazingswiper4 .swiper-slide{
+    height: 200px;
+    width: 50%;
+    background-color: white;
+    padding: 0 8px 8px 8px;
+    border: 1px solid gray;
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   
+}
+.several2 .bottom-side3 .amazingswiper4 img{
+    width: 50%;
+    height: 50%;
+   margin-top: 8px;
+   
+}

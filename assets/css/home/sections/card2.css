@@ -1,0 +1,17 @@
+div.card2{
+    width: 85%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+div.card2 a{
+    width: 25%;
+    height: fit-content;
+    justify-content: space-between;
+}
+div.card2>a>img{
+    border-radius: 8%;
+}

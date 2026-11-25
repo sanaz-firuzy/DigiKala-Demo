@@ -1,0 +1,10 @@
+div.card3{
+    width: 90%;
+    height: fit-content;
+    margin: 25px 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.card3>a>img{
+    border-radius: 20px;
+}

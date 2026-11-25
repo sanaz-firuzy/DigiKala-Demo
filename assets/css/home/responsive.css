@@ -1,0 +1,163 @@
+
+
+
+html, body { overflow-x: clip; }
+img, svg { max-width: 100%; }
+.lastgrid .bottomgrid .item { width: 100%; }          /* قبلاً 455px ثابت بود */
+div.parent2 { margin-left: auto; margin-right: auto; }  
+
+/* tablet */
+@media (max-width: 780px) {
+
+   
+    .header { flex-wrap: wrap; padding: 10px 12px; row-gap: 10px; }
+    .header .right-icon { display: contents; } 
+    .header .right-icon > svg { order: 1; width: 150px; height: auto; margin: 0; }
+    .header .left-icon      { order: 2; padding: 0; }
+    .header .right-icon .searchBox { order: 3; width: 100%; height: 48px; }
+    .header .right-icon .searchBox svg { margin: 0 12px; }
+    .header .left-icon .entry { margin: 0 10px; padding: 8px 10px; }
+
+    /* banner */
+    div.bannerswiper { height: 300px !important; }
+    .bannerswiper .swiper-slide img { height: 300px !important; }
+    .bannerswiper .swiper-button-next { left: 92% !important; top: 85% !important; }
+    .bannerswiper .swiper-button-prev { left: 82% !important; top: 85% !important; }
+    .swiper-button-next, .swiper-button-prev { transform: scale(.8); }
+
+    
+    div.parent { width: 95%; }
+    div.parent > ul.offers { flex-wrap: wrap; gap: 14px 0; }
+    div.parent > ul.offers > li { width: 25%; text-align: center; }
+    div.parent2 { width: 95%; }
+    div.parent2 > h2 { font-size: 24px; }
+    div.parent2 > ul.offers > li { width: 25%; }
+    div.parent2 > ul.offers > li > a > img { width: 56px; height: 56px; }
+    div.parent2 > ul.offers > li > a { font-size: 13px; text-align: center; }
+    div.parent > ul.offers > li > a > img { width: 56px; height: 56px; }
+    div.parent > ul.offers > li > a { font-size: 13px; }
+
+    /* amazing offers */
+    .amazing-offers, .amazing-offers2 { width: 95%; height: auto; flex-direction: column; }
+    .amazing-offers .right-side, .amazing-offers2 .right-side {
+        width: 100%; height: auto; flex-direction: row; padding: 0 16px 16px; gap: 16px;
+    }
+    .amazing-offers .left-side, .amazing-offers2 .left-side { width: 100%; padding: 0 8px; }
+
+    div.card1, div.card2, div.card3 { width: 95%; margin: 15px auto; flex-wrap: wrap; gap: 12px; }
+    div.card1 a, div.card2 a, div.card3 a { width: 48%; }
+    div.card1 img, div.card2 img, div.card3 img { width: 100%; height: auto; }
+    .delivery { width: 95%; height: auto; }
+    .delivery .top-side2 { width: 95%; height: auto; padding: 10px; font-size: 16px; margin-right: 10px; }
+    .several, .several2, .most-sell, .lastgrid { width: 95%; }
+    .several .top-side3, .several .top-side4 { margin-right: 10px; font-size: 16px; }
+    .most-sell .most-bottom .mostSwiper { height: 380px; }
+
+    /* grid*/
+    .lastgrid .bottomgrid { grid-template-columns: repeat(2, 1fr); }
+    .lastgrid .bottomgrid .item { height: 420px; }
+    .lasttag a { width: 30%; }
+
+    /* footer */
+    .top-footer { flex-wrap: wrap; }
+    .top-footer .fright { padding: 20px 16px; }
+    .top-footer .fright ul { flex-wrap: wrap; }
+    .top-footer .fright > svg { width: 200px; height: auto; }
+    .top-footer .fleft { padding: 0 16px 20px; }
+    .footer2 ul { flex-wrap: wrap; justify-content: center; }
+    .footer2 ul li { width: 28%; margin: 10px; text-align: center; }
+    .call { left: 16px; bottom: 16px; width: 56px; height: 56px; }
+    .fbox { flex-wrap: wrap; gap: 24px; margin: 30px 0; }
+    .fbox .box, .fbox .box2 { width: 45%; }
+    .fbox .box2 { width: 100%; }
+    .fbox .box h2, .fbox .box2 h2 { font-size: 22px; }
+    .fbox .box li a { font-size: 16px; }
+    .footer3 { width: 95%; margin: 5px auto; flex-wrap: wrap; gap: 12px; }
+    .footer3 .fright2 h2 { font-size: 20px; }
+    .footer4 { flex-direction: column; gap: 16px; }
+    .footer4 .fright3, .footer4 .fleft3 { width: 100%; justify-content: start; }
+    .footer4 .fleft3 { flex-wrap: wrap; gap: 8px; }
+    .footer4 .fleft3 img { margin: 0; max-width: 90px; }
+    .footer5 .foot5b { grid-template-columns: repeat(4, 1fr); }
+    .footer5 .foot5b .boxs { width: 100%; }
+}
+
+/* mobile */
+@media (max-width: 460px) {
+
+    nav { display: none !important; }                    
+    .header .right-icon > svg { width: 110px; }
+    .header .left-icon .entry p { display: none; }      
+    .header .left-icon .entry { margin: 0 6px; }
+
+    div.bannerswiper { height: 170px !important; }
+    .bannerswiper .swiper-slide img { height: 170px !important; }
+    .bannerswiper .swiper-button-next,
+    .bannerswiper .swiper-button-prev { display: none !important; }  
+    .swiper-button-next, .swiper-button-prev { display: none !important; }
+
+    div.parent > ul.offers > li,
+    div.parent2 > ul.offers > li { width: 33.33%; }
+    div.parent2 > h2 { font-size: 18px; }
+    div.parent2 > ul.offers > li > a > img,
+    div.parent > ul.offers > li > a > img { width: 44px; height: 44px; }
+    div.parent2 > ul.offers > li > a,
+    div.parent > ul.offers > li > a { font-size: 11px; }
+    div.parent2 > ul.offers > li { margin-top: 8px; }
+
+    .amazing-offers .right-side, .amazing-offers2 .right-side { flex-wrap: wrap; justify-content: center; }
+
+    div.card1, div.card2, div.card3 { gap: 8px; }
+    div.card1 a, div.card2 a, div.card3 a { width: calc(50% - 4px); }   /* دو تا کنار هم */
+
+    .delivery .top-side2 { font-size: 14px; flex-wrap: wrap; gap: 6px; }
+    .most-sell .most-bottom .mostSwiper { height: 360px; }
+    .most-sell .most-bottom .mostSwiper .swiper-slide img { width: 70px; height: 70px; }
+
+    .lastgrid .bottomgrid .item { height: 260px; }
+    .lastgrid .bottomgrid .item span { font-size: 12px; }
+    .lasttag a { width: 50%; }
+
+    .footer2 ul li { width: 40%; }
+    .fbox .box { width: 100%; }
+    .footer3 .fleft2 { flex-wrap: wrap; gap: 8px; }
+    .footer5 .foot5b { grid-template-columns: repeat(3, 1fr); }
+    .footer5 .foot5b .boxs { height: 60px; }
+
+
+    .amazing-offers .left-side .amazingswiper .swiper-slide,
+    .amazing-offers2 .left-side .amazingswiper .swiper-slide,
+    .delivery .bottom-side .amazingswiper2 .swiper-slide { height: 320px; padding: 0 4px 4px; }
+     .delivery .bottom-side .amazingswiper2 .swiper-slide { width: auto !important;}
+   .amazing-offers .left-side .amazingswiper .swiper-slide{width: auto !important;}
+    .amazing-offers .left-side .amazingswiper .swiper-slide img,
+    /* .amazing-offers2 .left-side .amazingswiper .swiper-slide img { height: 60px; } */
+    .amazing-offers .left-side .amazingswiper .swiper-slide h2,
+    .amazing-offers2 .left-side .amazingswiper .swiper-slide h2,
+    .delivery .bottom-side .amazingswiper2 .swiper-slide h2 { font-size: 10px; }
+    .delivery .bottom-side .amazingswiper2 .swiper-slide{width: 200px !important;}
+    .amazing-offers .left-side .amazingswiper .swiper-slide span,
+    .amazing-offers2 .left-side .amazingswiper .swiper-slide span,
+    .delivery .bottom-side .amazingswiper2 .swiper-slide span { font-size: 12px; }
+    .amazing-offers2 .left-side .amazingswiper .swiper-slide{ width: auto !important;}
+    .several .bottom-side2 .amazingswiper3 .swiper-slide { height: 200px; padding: 0 4px 4px; font-size: 10px; }
+    .several .bottom-side2 .amazingswiper3 .swiper-slide{ width: auto !important;}
+    .several .bottom-side2 .amazingswiper3 .swiper-slide img { width: 60%; height: 160px; }
+    .several .bottom-side2 .amazingswiper3 .swiper-slide h2,
+    .several .bottom-side2 .amazingswiper3 .swiper-slide span { font-size: 10px; }
+    .several2 .bottom-side3 .amazingswiper4 .swiper-slide { height: 110px; }
+    .several2 .bottom-side3 .amazingswiper4 img { height: 60px; }
+    .lastgrid .bottomgrid .item img { margin-bottom: 12px; }
+}
+@media screen and (min-width: 769px){
+    .mini-menu{ display: none !important;}
+    
+}
+@media screen and (max-width: 769px){
+    section.mini-menu{
+        display: flex !important;
+    }
+    .most-sell .most-bottom .mostSwiper .swiper-slide{
+        width: auto !important;
+    }
+}

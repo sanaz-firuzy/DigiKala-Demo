@@ -1,0 +1,82 @@
+.lastgrid{
+    width: 90%;
+    height: fit-content;
+    /* border: 1px solid gray; */
+    /* padding: 20px 0; */
+    margin: 30px auto;
+}
+.lastgrid .bottomgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: repeat(8,1fr);
+    gap: 0;
+}
+.lastgrid .bottomgrid .item{
+    border: 0.5px solid rgb(218, 214, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 550px;
+    width: 455px;
+    /* gap: 25px; */
+}
+.lastgrid .bottomgrid .item img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 32px;
+    object-fit: contain;
+}
+.lastgrid .bottomgrid .item span{
+    position: relative;
+    right: 37%;
+}
+.lastgrid .bottomgrid .item svg{
+    position: relative;
+    top: -10%;
+    left: 40%;
+
+}
+.lastgrid .bottomgrid .item:hover{
+    box-shadow: 5px 8px 15px gray;
+}
+.lastgrid .bottomgrid .item::before{
+        content: "30%";
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: red;
+        border-radius: 80%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+        position: relative;
+        right: -37%;
+        top: 80%;
+}
+.lastgrid .bottomgrid .item span.org{
+    text-decoration: line-through;
+    position: relative;
+    right: 37%;
+    margin-bottom: 12px;
+    color: rgb(192, 189, 189);
+}
+.lasttag{
+    margin-top: 15px;
+   width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lasttag a{
+    width: 10%;
+    height: 100%;
+    background-color: rgb(220, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    color: black;
+}

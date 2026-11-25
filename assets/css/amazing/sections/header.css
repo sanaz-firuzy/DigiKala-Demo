@@ -1,0 +1,79 @@
+@font-face {
+    font-family: digi;
+    src: url(/assets/fonts/digikala-variable.16j_2qc1xkb87.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: digi;
+}
+.header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 15px; */
+    /* position: fixed;
+    z-index: 9999; */
+    background-color: white;
+    /* top: 0;
+    position: fixed;
+    z-index: 9999; */
+
+}
+.header .right-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header .right-icon svg{
+    margin: 0 20px;
+}
+.header .right-icon .searchBox{
+    width: 700px;
+    height: 60px;
+    background-color: #eee;
+    border-radius: 28px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.header .right-icon .searchBox button{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    color: gray;
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+}
+.header .right-icon .searchBox input{
+    font-family: digi;
+    flex: 1;
+    font-size: 18px;
+    color: gray;
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+    margin-right: 10px;
+}
+.header .left-icon{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+.header .left-icon .entry{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 15%;
+    margin: 0 20px;
+    padding: 10px 15px;
+    font-weight: bolder;
+}

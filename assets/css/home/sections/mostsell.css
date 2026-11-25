@@ -1,0 +1,36 @@
+.most-sell{
+    width: 90%;
+    height: fit-content;
+    border: 1px solid gray;
+    /* box-shadow:  gray; */
+    padding: 20px 0;
+    margin: 30px auto;
+    border-radius: 12px;
+}
+.most-sell .most-top{
+    padding: 8px;
+}
+.most-sell .most-bottom .mostSwiper{
+    width: 100%;
+    height: 400px;
+}
+.most-sell .most-bottom .mostSwiper .swiper-slide{
+    height: fit fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: white;
+    /* padding: 0 8px 8px 8px; */
+}
+.most-sell .most-bottom .mostSwiper .swiper-slide img{
+    width: 90px;
+    height: 90px;
+}
+.most-sell .most-bottom .mostSwiper .swiper-slide span{
+    border: 1px solid red; 
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}

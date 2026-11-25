@@ -1,0 +1,17 @@
+div.parent{
+    width: 85%;
+    height: fit-content;
+    margin: 25px auto;
+}
+div.parent>ul.offers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.parent>ul.offers>li>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}

@@ -1,0 +1,31 @@
+div.parent2{
+    width: 90%;
+    height: fit-content;
+    margin: 25px auto;
+}
+div.parent2>h2{
+    font-family: digi;
+    font-size: 35px;
+}
+div.parent2>ul.offers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+div.parent2>ul.offers>li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 11%;
+    margin-top: 15px;
+}
+div.parent2>ul.offers>li>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.parent2>ul.offers>li>a>img{
+    width: 100px;
+    height: 100px;
+}

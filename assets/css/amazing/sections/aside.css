@@ -1,0 +1,119 @@
+.main{
+    width: 98%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 15px;
+    align-items: stretch;
+    padding: 15px;
+}
+ .filter{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 8px;
+    position: sticky !important;
+    top: 20px !important;
+    align-self: start; 
+   
+}
+.filter .f1{
+    
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    height: fit-content;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.filter .f1:last-child{
+    border: none;
+}
+.filter .f1:nth-child(2){
+    display: block;
+    margin: 8px 0;
+}
+.main .grid .bottomgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: 8px; */
+    margin-right: 8px;
+    margin-left: 10px;
+}  
+.main .grid .bottomgrid .item{
+    width: 420px;
+    height: 620px;
+    padding: 5px;
+    position: relative;
+    border: 1px solid rgb(219, 216, 216);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .grid .bottomgrid .item img:nth-last-of-type(2){
+position: relative;
+right: -100px;
+width: 40%;
+height: 8%;
+}
+.main .grid .bottomgrid .item img:nth-last-of-type(1){
+    /* width: 240px;
+    height: 240px; */
+    object-fit: contain;
+}
+.main .grid .bottomgrid .item p{
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+    text-align: right;
+}
+.main .grid .bottomgrid .item span{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 8px;
+}
+.main .grid .bottomgrid .item span.org{
+    text-decoration: line-through;
+    font-size: 15px;
+}
+/* .main .grid .bottomgrid .item::before{
+    content: "30%";
+        display: flex;
+        width: 30px;
+        height: 25px;
+        background-color: red;
+        border-radius: 30%;
+        padding: 0 5px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        position: relative;
+        right: -40%;
+        top: 85%;
+} */
+ .main .grid .bottomgrid .item::before {
+    content: "30%";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 30%;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 8%;
+    right: 2%;
+}
+.main .grid .bottomgrid .item:hover{
+    box-shadow: 5px 8px 15px gray;
+}
